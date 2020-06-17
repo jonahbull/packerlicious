@@ -995,6 +995,7 @@ class GoogleCompute(PackerBuilder):
         'disk_name': (str, False),
         'disk_size': (int, False),
         'disk_type': (str, False),
+        'enable_secure_boot': (validator.boolean, False),
         'image_description': (str, False),
         'image_family': (str, False),
         'image_labels': (dict, False),
